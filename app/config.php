@@ -5,32 +5,11 @@ if(session_id() == '') {
     session_start();
 }
 
-/*
+
 define( "DB_NAME", "Gameception" );
 define( "DB_USER", "root" );
 define( "DB_PASSWORD", "root" );
 define( "DB_HOST", "localhost" );
-*/
-define( "DB_NAME", "gception_db" );
-define( "DB_USER", "gception_gcc" );
-define( "DB_PASSWORD", "gameception" );
-define( "DB_HOST", "localhost" );
-
-
-
-/* HOZZT
-define( "DB_NAME", "gception_gception" );
-define( "DB_USER", "gception_ggc" );
-define( "DB_PASSWORD", "ggception" );
-define( "DB_HOST", "localhost" );
-*/
-
-/* HOSTGATOR
-define( "DB_NAME", "turushan_gameception" );
-define( "DB_USER", "turushan_ggc" );
-define( "DB_PASSWORD", "ggception" );
-define( "DB_HOST", "localhost" );
-*/
 
 define( "TABLE_MATCHES", "obj_matches" );
 define( "TABLE_MATCHSPECIAL_QUESTIONS", "obj_match_special_questions" );
