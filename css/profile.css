@@ -1,0 +1,226 @@
+.avatar_container {
+	width: 100%;
+	height: 250px;
+	-webkit-box-shadow:	inset 0 0 30px #000, inset 0 0 30px #000, inset 0 0 30px #000;
+	-moz-box-shadow: inset 0 0 30px #000, inset 0 0 30px #000, inset 0 0 30px #000;
+	box-shadow:	inset 0 0 30px #000, inset 0 0 30px #000, inset 0 0 30px #000;
+	border: 2px groove gray;
+	overflow: hidden;
+	position: relative;
+}
+.changeimage {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: black;
+	box-shadow: 0 -10px 30px black;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
+.changeimage a {
+	color: white;
+}
+
+.details {
+	height: 250px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	box-shadow: none;
+}
+.details .profilename {
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color: #104173;
+	box-shadow: inset 6em 0 80px black, inset -6em 0 80px black, inset 0 -5px 30px black, inset 0 5px 30px black;
+	font-family: Arial;
+}
+.gap {
+	height: 10px;
+}
+.profiledetails {
+	word-break: break-all;
+}
+.profiledetails ul li {
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-bottom: 5px;
+	background-color: #104173;
+	box-shadow: inset 1em 0 80px black, inset -1em 0 80px black;
+}
+.profiledetails .profiledetail_won {
+	background-color: green;
+	box-shadow: inset 1em 0 120px black, inset -1em 0 120px black, inset 0 5px 20px black, inset 0 -5px 20px black;
+}
+.profiledetails .profiledetail_lost {
+	background-color: #C40E0E;
+	box-shadow: inset 1em 0 120px black, inset -1em 0 120px black, inset 0 5px 20px black, inset 0 -5px 20px black;
+}
+.profiledetail {
+	color: white;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.profiledetail_title {
+	padding-top: 15px;
+	padding-bottom: 0;
+	font-size: 13px;
+	
+}
+.profiledetail_text {
+	padding-top: 0;
+	padding-bottom: 15px;
+	font-size: 25px;
+	line-height: 25px;
+	max-height: 40px;
+}
+
+.simplelist#sonkuponlar {
+	height: 200px;
+}
+.simplelist#sonkuponlar a {
+	color: white;
+}
+.simplelist#sonkuponlar .none {
+	width: 100%;
+	height: 100px;
+	line-height: 30px;
+	padding-top: 35px;
+	text-align: center;
+}
+.simplelist#sonkuponlar .last_element {
+	float: left;
+	text-align: center;
+	word-break: break-all;
+}
+.simplelist#sonkuponlar .last_element.last_icon {
+	width: 5%;
+}
+.simplelist#sonkuponlar .last_element.last_icon span.won {
+	color: green;
+}
+.simplelist#sonkuponlar .last_element.last_icon span.lost {
+	color: red;
+}
+.simplelist#sonkuponlar .last_element.last_icon span.pending {
+	color: orange;
+}
+.simplelist#sonkuponlar .last_element.last_date {
+	width: 25%;
+	font-size: 12px;
+	padding-top: 3px;
+	color: gray;
+}
+.simplelist#sonkuponlar .last_element.last_date .last_date_hour {
+	color: white;
+}
+.simplelist#sonkuponlar .last_element.last_totalrate {
+	width: 35%;
+	text-align: left;
+	padding-left: 10px;
+}
+.simplelist#sonkuponlar .last_element.last_totalrate span.last_totalrate_txt {
+	font-size: 11px;
+}
+.simplelist#sonkuponlar .last_element.last_totalrate span.last_totalrate_val {
+	padding-left: 2px;
+}
+.simplelist#sonkuponlar .last_element.last_result {
+	width: 35%;
+	text-align: left;
+}
+.simplelist#sonkuponlar .last_element.last_result span.last_result_txt {
+	font-size: 11px;
+}
+.simplelist#sonkuponlar .last_element.last_result span.last_result_txt.won {
+	color: green;
+	margin-left: 5px;
+}
+.simplelist#sonkuponlar .last_element.last_result span.last_result_txt.lost {
+	color: red;
+	margin-left: 5px;
+}
+.simplelist#sonkuponlar .last_element.last_result span.last_result_val {
+	padding-left: 5px;
+}
+
+.shortbio {
+	height: 200px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.badgesection {
+	padding: 20px;
+}
+.badgesection .noelement {
+	width: 100%;
+	height: 180px;
+	line-height: 20px;
+	padding-top: 70px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+.badgesection .badge_li:hover {
+	cursor: pointer;
+}
+.badgesection .badge_li:nth-child(4n+0) {
+	margin-right: 0%;
+}
+.badgesection .badge_li {
+	width: 20%;
+	margin-right: 6.66666666667%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+.badgesection .badge_li .badgeicon {
+	margin-bottom: 15px;
+}
+.badgesection .badge_li img {
+	width: 80%;
+	height: 140px;
+}
+.badgesection .badge_li .popover-content {
+	color: black;
+}
+
+.monthlycredit:hover {
+	cursor: pointer;
+}
+
+/* profile image upload */
+#profileimage {
+	width: 1px;
+	height: 1px;
+}
+
+/* Bio update */
+#biotextarea {
+	display: none;
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}

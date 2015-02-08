@@ -1,0 +1,69 @@
+.adminrow {
+	margin-top: 0;
+}
+.nav-tabs {	
+	background: url('/img/bg.jpg');
+	border-color: black;
+}
+.nav-tabs>li:first-of-type {
+	margin-left: 5px;
+}
+.nav-tabs>li>a {
+	color: white;
+}
+.nav-tabs>li>a:hover {
+	background-color: #505050;
+	border-color: black;
+	border-bottom-color: black;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	background-color: #505050;
+	border-color: black;
+	border-bottom-color: #505050;
+	color: white;
+}
+.nav-tabs>li.active>a:hover {
+	cursor: pointer;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background-color: #505050;
+	border-color: black;
+}
+.dropdown-menu {
+	background-color: #505050;
+}
+.dropdown-menu>li>a {
+	background-color: #505050;
+	color: white;
+}
+.dropdown-menu>li>a:hover {
+	background-color: gray;
+	color: white;	
+}
+
+.deletematch { color: white; }
+.deletematch:hover { color:red; }
+.editmatch { color: white; }
+.editmatch:hover{ color: orange; }
+.gotospecial { color: white; }
+.gotospecial:hover{ color: yellow; }
+
+.deletespecial { color: white; }
+.deletespecial:hover { color:red; }
+.editspecial { color: white; }
+.editspecial:hover{ color: orange; }
+
+
+
+.infopopover {
+	color: #d9534f;
+}
+.infopopover:hover {
+	color: #d43f3a;
+}
+.infopopover {
+	color: #d9534f;
+}
+.popover-content {
+	color: black;
+}

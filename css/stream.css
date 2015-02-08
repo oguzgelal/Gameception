@@ -1,0 +1,146 @@
+.stream {
+	height: 400px;
+	overflow: hidden;
+}
+.stream > * {
+	width: 100%;
+	height: 400px;
+}
+/*
+.simplelist#desc {
+	height: 400px;
+}
+.simplelist#desc .simplelist_content {
+	color: white;
+	padding: 10px;
+	padding-left: 15px;
+}
+*/
+
+.chatcontainer {
+	position: relative;
+}
+.simplelist#chat {
+	height: 400px;
+	max-height: 400px;
+	overflow-x: scroll;
+	border-bottom: 0;
+}
+.simplelist#chat .simplelist_content {
+	padding-top: 30px; /* height of infobox */
+	padding-left: 10px;
+}
+.simplelist#chat .simplelist_content ul {
+	padding-bottom: 40px; /* height of chatbox */
+}
+.simplelist#chat .simplelist_content ul li {
+	margin-bottom: 10px;
+}
+.simplelist#chat .simplelist_content ul li .username {
+	color: red;
+	margin-right: 10px;
+	font-weight: bolder;
+}
+.simplelist#chat .simplelist_content ul li .msg {
+	
+}
+.infobox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	background-color: black;
+	border: 2px groove gray;
+	border-bottom: 1px solid #104173;
+}
+.infobox .onlineicon {
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-right: 3px;
+	border-radius: 50%;
+}
+.chatbox {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	border: 2px groove gray;
+	border-top: none;
+}
+.chatbox textarea {
+	color: white;
+	padding: 5px;
+	border: 1px solid #104173;
+	background-color: black;
+	width: 80%;
+	height: 100%;
+	outline: 0;
+	resize: none;
+	float: left;
+}
+.chatbox input#sendchat {
+	width: 20%;
+	height: 100%;
+	background-color: black;
+	border: 1px solid #104173;
+	border-left: none;
+	color: #104173;
+	float: left;
+}
+
+
+/* Special Questions */
+.simplelist#special {
+	height: auto;
+}
+.simplelist#special .simplelist_element:hover {
+	background-color: transparent;
+}
+.simplelist#special .question_li {
+	margin-left: 0;
+}
+.simplelist#special .question {
+	padding: 10px 20px;
+	text-align: left;
+	background-color: black;
+	box-shadow: inset 0 0 3em #104173;
+	font-weight: bolder;
+	color: white;
+}
+.simplelist#special .answer_ul {
+	padding-top: 5px;
+	padding-left: 0;
+}
+.simplelist#special .answer_li:hover {
+	background-color: transparent;
+}
+.simplelist#special .answer_li {
+	padding: 2px;
+	font-size: 12px;
+}
+.simplelist#special .answer_rate {
+	width: 10%;
+	float: left;
+	color: red;
+}
+.simplelist#special .answer {
+	width: 90%;
+	float: left;
+	text-align: left;
+}
+.simplelist#special .answer .selectedmark {
+	display: none;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #104173;
+	margin-left: 5px;
+}

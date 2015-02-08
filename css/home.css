@@ -1,0 +1,147 @@
+/* Slider News */
+.slidernews {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	background-color: white;
+	border: 2px groove gray;
+}
+.slidernewslinks {
+	width: 30%;
+	float: left;
+}
+.slidernewslinks ul {
+	margin-bottom: 0;
+}
+.slidernewslink {
+	background-color: #104173;
+	box-shadow: inset 0 0 2em black;
+	overflow: hidden;
+}
+.slidernewslink:hover, .slidernewslink.active {
+	background-color: black;
+	cursor: pointer;
+}
+.slidernewslink .txt {
+	display: inline-block;
+	color: white;
+	font-size: 12px;
+}
+.slidernewslink .title {
+	margin-left: 10px;
+}
+.slidernewslink .text {
+	margin-left: 10px;
+}
+.hidden {
+	display: none;
+}
+.slidernewsimgs {
+	float: left;
+	width: 70%;
+	position: relative;
+}
+.slidernewsimgs .slidernewsimgcont {
+	height: 100%;
+	background-color: black;
+}
+.slidernewsimgs .slidernewsimgcont img {
+	width: 100%;
+	height: auto;
+}
+.slidernewsimgs .slidernewstextcont {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	padding: 20px;
+}
+.slidernewsimgs .slidernewstextcont .title {
+	font-size: 25px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+}
+
+
+/* Match List */
+.matchlistdata.teams {
+	color: white;
+	line-height: 35px;
+	width: 75%;
+	max-width: 75%;
+	padding-left: 10px;
+	overflow: hidden;
+	float: left;
+}
+.matchlistdata.teams > div {
+	display: inline-block;
+}
+.matchlistdata.teams img {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.matchlistdata.teams .team1 {
+	width: 90px;
+	max-width: 90px;
+	min-width: 90px;
+	text-align: left;
+}
+.matchlistdata.teams .team1 img {
+	margin-right: 5px;
+}
+.matchlistdata.teams .team2 {
+	width: 90px;
+	max-width: 90px;
+	min-width: 90px;
+	text-align: right;
+}
+.matchlistdata.teams .team2 img {
+	margin-left: 5px;
+}
+.matchlistdata.teams .vs {
+	color: gray;
+}
+.matchlistdata.time {
+	color: gray;
+	font-size: 12px;
+	width: 25%;
+	max-width: 25%;
+	overflow: hidden;
+	float: left;
+}
+.matchlistdata.time .state.now {
+	color: blue;
+}
+
+/* Video */
+.video {
+	width: 100%;
+	height: 400px;
+	border: 2px groove gray;
+}
+
+/* Stat list */
+.tablist#statlist .tablist_ul li a {
+	color: white;
+	text-decoration: none;
+}
+.tablist#matchlist {
+	height: 400px;
+	max-height: 400px;
+}
+.tablist#statlist {
+	height: 400px;
+	max-height: 400px;	
+}
+.tablist#statlist .tablist_ul li {
+	padding-left: 10px;
+}
+.tablist#statlist .tablist_ul li img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}

@@ -1,0 +1,110 @@
+.siralama {
+	background-color: black;
+	box-shadow: inset 0 0 5em #104173;
+	border: 2px groove gray;
+	text-align: center;
+}
+.siralamatxt {
+	color: white;
+	font-size: 30px;
+	padding: 25px 10px;
+}
+.tablist#bets {
+	min-height: 228px;
+}
+/* Match List */
+.betlistdata.teams {
+	color: white;
+	height: 30px;
+	max-height: 30px;
+	width: 75%;
+	max-width: 75%;
+	padding-left: 10px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.betlistdata.teams > div {
+	display: inline-block;
+}
+.betlistdata.teams img {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.betlistdata.teams .team1 {
+	text-align: left;
+	margin-right: 20px;
+}
+.betlistdata.teams .team1 img {
+	margin-right: 5px;
+}
+.betlistdata.teams .team2 {
+	margin-left: 20px;
+	text-align: right;
+}
+.betlistdata.teams .team2 img {
+	margin-left: 5px;
+}
+.betlistdata.teams .team {
+	padding: 5px;
+	border-radius: 8px;
+	width: 40%;
+}
+.betlistdata.teams .team:hover {
+	background-color: #062747;
+	box-shadow: 0 0 20px black;
+}
+.betlistdata.teams .teamrate {
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;
+	color: red;
+}
+.betlistdata.teams .vs {
+	padding: 5px;
+	border-radius: 8px;
+	color: gray;
+}
+.betlistdata.teams .vs:hover {
+	background-color: #062747;
+	box-shadow: 0 0 20px black;
+}
+.betlistdata.teams .hasquestions {
+	line-height: 30px;
+	vertical-align: middle;
+	font-size: 13px;
+	margin-left: 5px;
+	color: yellow;
+}
+.betlistdata.time {
+	color: white;
+	width: 25%;
+	max-width: 25%;
+	overflow: hidden;
+	float: left;
+	line-height: 30px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.betlistdata.time .state {
+}
+.betlistdata.time .state .today {
+	display: inline-block;
+	font-size: 13px;
+	color: green;
+}
+.betlistdata.time .state .tomorrow {
+	display: inline-block;
+	font-size: 12px;
+	color: orange;
+}
+.betlistdata.time .state .anydate {
+	display: inline-block;
+	font-size: 11px;
+	color: gray;
+}

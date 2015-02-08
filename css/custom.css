@@ -1,0 +1,258 @@
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('../fonts/glyphicons-halflings-regular.eot');
+	src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+@font-face {	
+	font-family: 'trebuchet';
+	src: url('../fonts/trebuchet.eot');
+	src: url('../fonts/trebuchet.eot?#iefix') format('embedded-opentype'), url('../fonts/trebuchet.woff') format('woff'), url('../fonts/trebuchet.ttf') format('truetype'), url('../fonts/trebuchet.svg#rsuregular') format('svg');
+}
+@font-face {	
+	font-family: 'vermin';
+	src: url('../fonts/font.eot');
+	src: url('../fonts/font.eot?#iefix') format('embedded-opentype'), url('../fonts/font.woff') format('woff'),	url('../fonts/font.ttf') format('truetype'), url('../fonts/font.svg#rsuregular') format('svg');
+}
+
+body {
+	background: url('/img/webbgson3.jpg') repeat;
+	position: relative;
+	font-family: 'trebuchet';
+}
+.container {
+	width: 970px !important;
+}
+.section {
+	/*background-color: rgba(255,255,255,0.5);*/
+	background-color: #2B2B2B;
+	/*border: 3px groove gray;*/
+	border: 1px solid gray;
+	border-top: none;
+	border-bottom: none;
+}
+.sociallogos_top {
+	position: absolute;
+	right: 20px;
+	top: 120px;
+	z-index: 999;
+}
+.sociallogos_top img {
+	width: 30px;
+	height: 30px;
+}
+.row {
+	margin-top: 15px;
+}
+.section .row:last-of-type {
+	margin-bottom: 15px;
+}
+.pl0 {
+	padding-left: 0;
+}
+.nostyle_white{
+	color: white;
+}
+.nostyle_white:hover {
+	color: white;
+	text-decoration: none;
+}
+.box {
+	background-color: black;
+	box-shadow: inset 0 0 5em #104173;
+	padding: 20px;
+	color: white;
+}
+
+/* footer */
+footer {
+	margin-bottom: 50px;
+	border-top: none;
+	height: 100px;
+}
+.footer {
+	border: 1px solid gray;
+	border-top: 1px solid gray;
+	height: 100px;
+}
+.footer .row {
+	margin-top: 0;
+}
+.warningtext {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	width: 100%;
+	font-size: 10px;
+	color: white;
+}
+
+
+
+/* Tablist CSS */
+.tablist {
+	width: 100%;
+	background-color: black;
+	box-shadow: inset 0 0 5em #104173;
+	border: 2px groove gray;
+}
+.tablist_tabs {
+	background-color: #104173;
+	box-shadow: inset 0 0 2em black;
+}
+.tablist_tab {
+	/* width: 33.33333%; */ /*!!! Javascript !!!*/
+	overflow: hidden;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	box-shadow: inset 0 0 2em black;
+}
+.tablist_tab .tablist_hiddencontent {
+	display: none;
+}
+.tablist_tab:hover, .tablist_tab.active {
+	cursor: pointer;
+	background-color: black;
+}
+.tablist_tab .tablist_title {
+	display: inline-block;
+}
+.tablist_element {
+	color: white;
+	margin-left: 5px;
+}
+.tablist_ul {
+	margin: 0;
+	margin-top: 10px;
+}
+.tablist_ul li {
+	margin-bottom: 5px;
+}
+.tablist_ul li:hover {
+	cursor: pointer;
+	background-color: #104173;
+}
+.tablist_ul li:last-child {
+	margin-bottom: 20px;
+}
+
+.simplelist {
+	width: 100%;
+	background-color: black;
+	box-shadow: inset 0 0 5em #104173;
+	border: 2px groove gray;
+}
+.simplelist_tabs {
+	background-color: #104173;
+	box-shadow: inset 0 0 2em black;
+}
+.simplelist_tab {
+	width: 100%;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	box-shadow: inset 0 0 2em black;
+}
+.simplelist_element {
+	color: white;
+	margin-left: 5px;
+}
+.simplelist_ul {
+	margin: 0;
+	margin-top: 10px;
+}
+.simplelist_ul li {
+	margin-bottom: 5px;
+}
+.simplelist_ul li:hover {
+	cursor: pointer;
+	background-color: #104173;
+}
+.simplelist_ul li:last-child {
+	margin-bottom: 20px;
+}
+
+/* Simple Division */
+.division {
+	background-color: black;
+	box-shadow: inset 0 0 5em #104173;
+	border: 2px groove gray;
+}
+
+/* Error Modal */
+.modal#error .modal-dialog .modal-content {
+	background-color: #f2dede;
+	border-color: #a94442;
+	color: #a94442;
+}
+.modal#error .modal-dialog .modal-content .modal-header {
+	border-bottom: 1px solid #ebccd1;
+}
+.modal#error .modal-dialog .modal-content .modal-header button.close {
+	color: #a94442 !important;
+	opacity: 1;
+}
+/* Success Modal */
+.modal#success .modal-dialog .modal-content {
+	background-color: #dff0d8;
+	border-color: #3c763d;
+	color: #3c763d;
+}
+.modal#success .modal-dialog .modal-content .modal-header {
+	border-bottom: 1px solid #d6e9c6;
+}
+.modal#success .modal-dialog .modal-content .modal-header button.close {
+	color: #3c763d !important;
+	opacity: 1;
+}
+
+/* Dismiss Notification */
+.dismissnotifs {
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	width: 300px;
+	z-index: 99;
+}
+.dismissnotif {
+	position: relative;
+	background-color: rgba(0,0,0,0.75);
+	border: 1px solid lightgray;
+	box-shadow: 0 0 50px black;
+	color: lightgray;
+	padding: 20px;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	height: auto;
+	min-height: 50px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.dismissnotif:hover {
+	background-color: black;
+	border-color: white;
+	color: white;
+}
+.dismissicon {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: lightgray;
+	font-size: 18px;
+}
+.dismissicon:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.winnersmoney {
+	color:green;
+}

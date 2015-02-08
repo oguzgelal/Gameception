@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Gameception</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/home.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery_migrate.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/slider.js"></script>
+</head>
+<body>
+	
+	<!-- Header -->
+	<nav class="navbar navbar-default navbar-fixed-top" style="background: url('img/bg.jpg'); background-size: 100% auto;" role="navigation">
+		<div class="logo">
+			<a href="/"><img src="img/logo.png" class="logoimg"></a>
+		</div>
+		<div class="container">
+			<div class="col-xs-12 text-center menucont">
+				<ul class="list-inline list-unstyled menuul">
+					<li><a class="menulink" href="#">Ana Sayfa</a></li>
+					<li><a class="menulink" href="#">Profil</a></li>
+					<li><a class="menulink" href="#">Bahis</a></li>
+					<li><a class="menulink" href="#">Sıralama</a></li>
+					<li><a class="menulink" href="#">Store</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="menuloginlink"><a href="#" id="loginlink" class="menulink">Login</a></div>
+		<div class="loginform">
+			<form class="form text-right" role="form">
+				<div class="form-group">
+					<label class="sr-only" for="exampleInputEmail2">Email</label>
+					<input type="email" class="form-control input-sm" id="exampleInputEmail2" placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<label class="sr-only" for="exampleInputPassword2">Password</label>
+					<input type="password" class="form-control input-sm" id="exampleInputPassword2" placeholder="Password">
+				</div>
+				<button type="submit" class="btn btn-default btn-xs signinbutton">Sign in</button>
+			</form>
+		</div>
+	</nav>
+
+	<!-- Contents -->
+	<section class="container section">
+
+		<div class="row">
+			<!-- Slider News -->
+			<div class="col-xs-8">
+				<div class="slidernews">
+					<div class="slidernewslinks">
+						<ul class="list-unstyled">
+							<li class="slidernewslink active">
+								<div class="txt title">Haber 1</div>
+								<div class="txt text">Lorem ipsum dolor sit amet</div>
+								<div class="hidden hiddenimg"><img src="http://lorempixel.com/400/400"></div>
+								<div class="hidden hiddentext">
+									<div class="title">Haber 1 Lorem Ipsum</div>
+									<div class="text">Lorem 1 ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sunt, eligendi, accusamus repellat illum quasi commodi voluptate rem officiis aperiam obcaecati sint eos ex hic possimus maiores eius ratione dolores.</div>
+								</div>
+							</li>
+							<li class="slidernewslink">
+								<div class="txt title">Haber 2</div>
+								<div class="txt text">Lorem ipsum dolor sit amet</div>
+								<div class="hidden hiddenimg"><img src="http://lorempixel.com/400/400"></div>
+								<div class="hidden hiddentext">
+									<div class="title">Haber 2 Lorem Ipsum</div>
+									<div class="text">Lorem 2 ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sunt, eligendi, accusamus repellat illum quasi commodi voluptate rem officiis aperiam obcaecati sint eos ex hic possimus maiores eius ratione dolores.</div>
+								</div>
+							</li>
+							<li class="slidernewslink">
+								<div class="txt title">Haber 3</div>
+								<div class="txt text">Lorem ipsum dolor sit amet</div>
+								<div class="hidden hiddenimg"><img src="http://lorempixel.com/400/400"></div>
+								<div class="hidden hiddentext">
+									<div class="title">Haber 3 Lorem Ipsum</div>
+									<div class="text">Lorem 3 ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sunt, eligendi, accusamus repellat illum quasi commodi voluptate rem officiis aperiam obcaecati sint eos ex hic possimus maiores eius ratione dolores.</div>
+								</div>
+							</li>
+							<li class="slidernewslink">
+								<div class="txt title">Haber 4</div>
+								<div class="txt text">Lorem ipsum dolor sit amet</div>
+								<div class="hidden hiddenimg"><img src="http://lorempixel.com/400/400"></div>
+								<div class="hidden hiddentext">
+									<div class="title">Haber 4 Lorem Ipsum</div>
+									<div class="text">Lorem 4 ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sunt, eligendi, accusamus repellat illum quasi commodi voluptate rem officiis aperiam obcaecati sint eos ex hic possimus maiores eius ratione dolores.</div>
+								</div>
+							</li>
+							<li class="slidernewslink">
+								<div class="txt title">Haber 5</div>
+								<div class="txt text">Lorem ipsum dolor sit amet</div>
+								<div class="hidden hiddenimg"><img src="http://lorempixel.com/400/400"></div>
+								<div class="hidden hiddentext">
+									<div class="title">Haber 5 Lorem Ipsum</div>
+									<div class="text">Lorem 5 ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sunt, eligendi, accusamus repellat illum quasi commodi voluptate rem officiis aperiam obcaecati sint eos ex hic possimus maiores eius ratione dolores.</div>
+								</div>
+							</li>
+							<li class="slidernewslink">
+								<div class="txt title">Haber 6</div>
+								<div class="txt text">Lorem ipsum dolor sit amet</div>
+								<div class="hidden hiddenimg"><img src="http://lorempixel.com/400/400"></div>
+								<div class="hidden hiddentext">
+									<div class="title">Haber 6 Lorem Ipsum</div>
+									<div class="text">Lorem 6 ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sunt, eligendi, accusamus repellat illum quasi commodi voluptate rem officiis aperiam obcaecati sint eos ex hic possimus maiores eius ratione dolores.</div>
+								</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="slidernewsimgs">
+						<div class="slidernewsimgcont"></div>
+						<div class="slidernewstextcont"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!-- Match List -->
+			<div class="col-xs-4 matchlistcont">
+				<div class="matchlist">
+					<div class="matchlisttabs">
+						<div class="matchlisttab">
+							<div class="gamedata gamename">LoL</div>
+							<div class="hiddencontent">
+								<ul class="list-unstyled matchlistul">
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Team1</div>
+											<div class="vs">vs</div>
+											<div class="team2">Team2<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state now">LIVE</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Lorem</div>
+											<div class="vs">vs</div>
+											<div class="team2">Ipsum<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state now">LIVE</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Dolor</div>
+											<div class="vs">vs</div>
+											<div class="team2">Sit Amet<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">16:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Asdasd</div>
+											<div class="vs">vs</div>
+											<div class="team2">Hop<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">16:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Team1</div>
+											<div class="vs">vs</div>
+											<div class="team2">Team2<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="matchlisttab">
+							<div class="gamedata gamename">SC 2</div>
+							<div class="hiddencontent">
+								<ul class="list-unstyled matchlistul">
+
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Dolor</div>
+											<div class="vs">vs</div>
+											<div class="team2">Sit Amet<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">21:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Dolor</div>
+											<div class="vs">vs</div>
+											<div class="team2">Sit Amet<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">21:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Dolor</div>
+											<div class="vs">vs</div>
+											<div class="team2">Sit Amet<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">21:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="matchlisttab">
+							<div class="gamedata gamename">WG</div>
+							<div class="hiddencontent">
+								<ul class="list-unstyled matchlistul">
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Team1</div>
+											<div class="vs">vs</div>
+											<div class="team2">Team2<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Dolor</div>
+											<div class="vs">vs</div>
+											<div class="team2">Sit Amet<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">21:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+						<div class="matchlisttab">
+							<!-- <div class="gamedata gameicon"><img src="http://lorempixel.com/20/20"></div> -->
+							<div class="gamedata gamename">HOP</div>
+							<div class="hiddencontent">
+								<ul class="list-unstyled matchlistul">
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Lorem</div>
+											<div class="vs">vs</div>
+											<div class="team2">Ipsum<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state now">LIVE</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Deneme</div>
+											<div class="vs">vs</div>
+											<div class="team2">Naber<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">18:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Dolor</div>
+											<div class="vs">vs</div>
+											<div class="team2">Sit Amet<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">21:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+									<li>
+										<div class="matchlistdata teams">
+											<div class="team1"><img src="http://lorempixel.com/20/20">Dolor</div>
+											<div class="vs">vs</div>
+											<div class="team2">Sit Amet<img src="http://lorempixel.com/20/20"></div>
+										</div>
+										<div class="matchlistdata time"><div class="state future">21:00</div></div>
+										<div class="clearfix"></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="matchlistcontent"></div>	
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<!-- Video -->
+			<div class="col-xs-8">
+				<iframe class="video" src="http://www.youtube.com/embed/0xDrOji2s2g" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<!-- Stat List -->
+			<div class="col-xs-4 statlistcont">
+				<div class="statlist">
+					<div class="statlisttabs">
+						<div class="statlisttab">
+							<div class="statdata">Aktif</div>
+							<div class="hiddencontentstat">
+								<ul class="list-unstyled matchlistul">
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Sleeep </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Oguz </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Deneme </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Hop </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Asgnasgkansg </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> HopNaber </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> LoremIpsum </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Ipsummm </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Dolor </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> SitAmet </li>
+								</ul>
+							</div>
+						</div>
+						<div class="statlisttab">
+							<div class="statdata">Toplam</div>
+							<div class="hiddencontentstat">
+								<ul class="list-unstyled matchlistul">
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> HopNaber </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> LoremIpsum </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Ipsummm </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Dolor </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> SitAmet </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Sleeep </li>
+								</ul>
+							</div>
+						</div>
+						<div class="statlisttab">
+							<div class="statdata">Streak</div>
+							<div class="hiddencontentstat">
+								<ul class="list-unstyled statlistul">
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Asgnasgkansg </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> HopNaber </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> LoremIpsum </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Sleeep </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Oguz </li>
+									<li class="statplayer"> <img src="http://lorempixel.com/20/20"> Deneme </li>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="statlistcontent"></div>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="container footer">
+		<div class="row">
+			<div class="col-xs-12 footer" style="background: url('img/bg.jpg'); background-size: 100% auto;">
+				<br><br><br><br><br><br><br><br>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
